@@ -1,0 +1,60 @@
+mother(X, princeCharles)
+{"{'X': 'queenElizabethII'}"}
+son(X, princeWilliam)
+{"{'X': 'princeGeorge'}"}
+grandchild(X, princePhillip)
+{"{'X': 'princeHarry'}", "{'X': 'princessBeatrice'}", "{'X': 'zaraPhillips'}", "{'X': 'jamesViscountSevern'}", "{'X': 'peterPhillips'}", "{'X': 'princeWilliam'}", "{'X': 'princessEugenie'}", "{'X': 'ladyLouiseMountbatten_Windsor'}"}
+granddaughter(zaraPhillips, queenElizabethII)
+{'true'}
+aunt(zaraPhillips, islaPhillips)
+{'true'}
+sister(X, ladyLouiseMountbatten_Windsor)
+{'false'}
+uncle(peterPhillips, princessCharlotte)
+{'false'}
+niece(X, kateMiddleton)
+{'false'}
+father(mikeTindall, savannahPhillips)
+{'false'}
+grandparent(princeCharles, princessCharlotte)
+{'true'}
+child(X, autumnKelly)
+{"{'X': 'islaPhillips'}", "{'X': 'savannahPhillips'}"}
+brother(princeAndrew, princeEdward)
+{'true'}
+grandmother(X, zaraPhillips)
+{"{'X': 'queenElizabethII'}"}
+grandson(princeGeorge, princessDiana)
+{'true'}
+wife(princessAnne, captainMarkPhillips)
+{'false'}
+aunt(X, princeWilliam)
+{"{'X': 'princessAnne'}", "{'X': 'sophieRhys-jones'}"}
+nephew(jamesViscountSevern, princeAndrew)
+{'true'}
+sibling(jamesViscountSevern, X)
+{"{'X': 'ladyLouiseMountbatten_Windsor'}"}
+daughter(X, peterPhillips)
+{"{'X': 'islaPhillips'}", "{'X': 'savannahPhillips'}"}
+granddaughter(X, sarahFerguson)
+{'false'}
+nephew(X, peterPhillips)
+{"{'X': 'miaGraceTindall'}"}
+sibling(X, princeCharles)
+{"{'X': 'princeAndrew'}", "{'X': 'princessAnne'}", "{'X': 'princeEdward'}"}
+husband(X, kateMiddleton)
+{"{'X': 'princeWilliam'}"}
+sister(X, princessBeatrice)
+{"{'X': 'princessEugenie'}"}
+grandparent(X, miaGraceTindall)
+{"{'X': 'princessAnne'}", "{'X': 'timothyLaurence'}", "{'X': 'captainMarkPhillips'}"}
+husband(X, camillaParkerBowles)
+{"{'X': 'princeCharles'}"}
+child(princeHarry, princessDiana)
+{'true'}
+niece(princessCharlotte, peterPhillips)
+{'false'}
+grandfather(timothyLaurence, islaPhillips)
+{'true'}
+father(X, miaGraceTindall)
+{"{'X': 'mikeTindall'}"}
