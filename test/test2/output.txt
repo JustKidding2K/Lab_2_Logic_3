@@ -1,0 +1,24 @@
+chuyen_nganh_cung_nganh('Congnghetrithuc', 'VatlyLythuyet')
+{'false'}
+tien_si('LeNgocThanh')
+{'false'}
+giao_su('LeHoaiBac')
+{'false'}
+bo_mon_cung_khoa('Khoahocmaytinh', X)
+{'false'}
+giang_vien('LeNgocThanh')
+{'true'}
+phong('Khoahocmaytinh', 'I81')
+{'true'}
+cung_la_giao_su('LeHoaiBac', 'LyQuocNgoc')
+{'false'}
+pho_bo_mon(X, 'Khoahocmaytinh')
+{'{\'X\': "\'LeNgocThanh\'"}'}
+hoc_ham(X, 'GS')
+{'{\'X\': "\'ChauVanTao\'"}', '{\'X\': "\'DangDucTrong\'"}', '{\'X\': "\'LeVanHieu\'"}', '{\'X\': "\'LeHoaiBac\'"}'}
+truong_bo_mon(X, 'Khoahocmaytinh')
+{'{\'X\': "\'LeHoaiBac\'"}'}
+truong_khoa('DinhBaTien', 'CNTT')
+{'true'}
+nganh_cung_khoa('Khoahocmaytinh', 'Kythuatphanmem')
+{'false'}
