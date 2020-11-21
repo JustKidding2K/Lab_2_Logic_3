@@ -1,9 +1,9 @@
 class Fact:
 
     def __init__(self,oper,args,neg=False):
-        self.oper=oper;
-        self.args=args;
-        self.neg=neg;
+        self.oper=oper
+        self.args=args
+        self.neg=neg
 
     def __repr__(self):
         return '{}({})'.format(self.oper, ', '.join(self.args))
@@ -57,11 +57,11 @@ class Rule:
             self.opers.add(premise.oper)
 
         self.premises.sort()
-        self.dup_pred=False;
+        self.dup_pred=False
         for i in range(len(self.premises)-1):
             if self.premises[i].oper==self.premises[i+1].oper:
-                self.dup_pred=True;
-                break;
+                self.dup_pred=True
+                break
 
     def __repr__(self):
         return '{} => {}, conditions:{}.'.format(' & '.join([str(cond) for cond in self.premises]), str(self.result),str(self.conditions))
@@ -85,7 +85,7 @@ class Rule:
                 phrase.extend([0])
                 result.append(phrase)
         return result
-        pass
+        
     @staticmethod
     #Grantmother(X,Z):-Parent(X,Y),Parent(Y,Z),Female(X),X/==Z,Y/==Z
     #Grantmother(X,Z):-Parent(X,Y),Parent(Y,Z),Female(X)
@@ -94,7 +94,7 @@ class Rule:
         rule = rule.replace(' ', '')
         rule = rule.replace('.', '')
         sep_id=rule.find(':-')
-        concludsion=Fact.parse_fact(rule[:sep_id]);
+        concludsion=Fact.parse_fact(rule[:sep_id])
         premises=[]
         conditions=[]
         list_premises=rule[sep_id+2:].split('),')

@@ -1,0 +1,60 @@
+nephew(jamesViscountSevern, princeAndrew)
+{'false'}
+niece(princessCharlotte, peterPhillips)
+{'false'}
+sibling(jamesViscountSevern, X)
+{"{'X': 'ladyLouiseMountbatten_Windsor'}"}
+wife(princessAnne, captainMarkPhillips)
+{'false'}
+sister(X, princessBeatrice)
+{"{'X': 'princessEugenie'}"}
+granddaughter(zaraPhillips, queenElizabethII)
+{'true'}
+grandson(princeGeorge, princessDiana)
+{'true'}
+sister(X, ladyLouiseMountbatten_Windsor)
+{'false'}
+husband(X, camillaParkerBowles)
+{"{'X': 'princeCharles'}"}
+son(X, princeWilliam)
+{"{'X': 'princeGeorge'}"}
+niece(X, kateMiddleton)
+{'false'}
+brother(princeAndrew, princeEdward)
+{'true'}
+grandfather(timothyLaurence, islaPhillips)
+{'true'}
+granddaughter(X, sarahFerguson)
+{'false'}
+daughter(X, peterPhillips)
+{"{'X': 'islaPhillips'}", "{'X': 'savannahPhillips'}"}
+child(princeHarry, princessDiana)
+{'true'}
+grandparent(X, miaGraceTindall)
+{"{'X': 'timothyLaurence'}", "{'X': 'princessAnne'}", "{'X': 'captainMarkPhillips'}"}
+child(X, autumnKelly)
+{"{'X': 'islaPhillips'}", "{'X': 'savannahPhillips'}"}
+uncle(peterPhillips, princessCharlotte)
+{'false'}
+father(mikeTindall, savannahPhillips)
+{'false'}
+nephew(X, princessAnne)
+{"{'X': 'princeHarry'}", "{'X': 'jamesViscountSevern'}", "{'X': 'princeWilliam'}"}
+mother(X, princeCharles)
+{"{'X': 'queenElizabethII'}"}
+sibling(X, princeCharles)
+{"{'X': 'princeEdward'}", "{'X': 'princessAnne'}", "{'X': 'princeAndrew'}"}
+aunt(zaraPhillips, islaPhillips)
+{'true'}
+grandparent(princeCharles, princessCharlotte)
+{'true'}
+husband(X, kateMiddleton)
+{"{'X': 'princeWilliam'}"}
+grandchild(X, princePhillip)
+{"{'X': 'ladyLouiseMountbatten_Windsor'}", "{'X': 'peterPhillips'}", "{'X': 'zaraPhillips'}", "{'X': 'princeHarry'}", "{'X': 'jamesViscountSevern'}", "{'X': 'princessBeatrice'}", "{'X': 'princessEugenie'}", "{'X': 'princeWilliam'}"}
+father(X, miaGraceTindall)
+{"{'X': 'mikeTindall'}"}
+grandmother(X, zaraPhillips)
+{"{'X': 'queenElizabethII'}"}
+aunt(X, princeWilliam)
+{"{'X': 'princessAnne'}", "{'X': 'sophieRhys-jones'}"}

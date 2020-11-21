@@ -11,7 +11,7 @@ def unify(x, y, theta):
             return unify(theta[x],y,theta)
         if y in theta:
             return unify(x,theta[y],theta)
-        theta[x]=y;
+        theta[x]=y
         return theta
     if support.get_type(y)=='var':
         return unify(y,x,theta)

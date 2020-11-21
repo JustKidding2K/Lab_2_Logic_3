@@ -17,10 +17,10 @@ def get_potential_facts(rule,kb):
         if fact.oper in rule.opers:
             result.add(fact)
     result=list(result)
-    result.sort();
+    result.sort()
     return result
 
-    pass
+    
 def check_theta(theta,rule):
     if not theta:
         return False

@@ -1,3 +1,0 @@
-criminal(X).
-X = west.
-
