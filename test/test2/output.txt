@@ -1,24 +1,28 @@
-chuyen_nganh_cung_nganh('Congnghetrithuc', 'VatlyLythuyet')
-{'false'}
-tien_si('LeNgocThanh')
-{'false'}
-giao_su('LeHoaiBac')
-{'false'}
-bo_mon_cung_khoa('Khoahocmaytinh', X)
-{'false'}
-giang_vien('LeNgocThanh')
+truc_thuoc(X, kHTN)
+{"{'X': 'toan-tinhoc'}", "{'X': 'dia_chat'}", "{'X': 'moi_truong'}", "{'X': 'dientu-vienthong'}", "{'X': 'khoa_hoc_va_Cong_nghe_vat_lieu'}", "{'X': 'sinh_hoc-cong_nghe_sinh_hoc'}", "{'X': 'vatly-vatlykythuat'}", "{'X': 'cNTT'}", "{'X': 'hoa_hoc'}"}
+pho_bo_mon(X, khoa_hoc_may_tinh)
+{"{'X': 'le_Ngoc_Thanh'}"}
+truong_khoa(X, toan-tinhoc)
+{"{'X': 'huynh_Quang_Vu'}"}
+hoc_ham(X, gS)
+{"{'X': 'le_Hoai_Bac'}", "{'X': 'le_Van_Hieu'}", "{'X': 'chau_Van_Tao'}", "{'X': 'dang_Duc_Trong'}"}
+phong(khoa_hoc_may_tinh, i81)
 {'true'}
-phong('Khoahocmaytinh', 'I81')
+giang_vien(X)
+{"{'X': 'truong_Thi_Cam_Trang'}", "{'X': 'truong_Thi_Hong_Loan'}", "{'X': 'dang_Thi_Phuong_Thao'}", "{'X': 'quach_Ngo_Diem_Phuong'}", "{'X': 'tran_Thanh_Huong'}", "{'X': 'nguyen_Thu_Huong'}", "{'X': 'hoang_Thi_Dong_Quy'}", "{'X': 'cao_Tran_Bao_Thuong'}", "{'X': 'vo_Luong_Hong_Phuoc'}", "{'X': 'ha_Thuc_Chi_Nhan'}", "{'X': 'nguyen_Thi_Kim_Dung'}", "{'X': 'pham_Nguyen_Cuong'}", "{'X': 'le_Hoai_Bac'}", "{'X': 'nguyen_Kim_Hoang'}", "{'X': 'ho_Pham_Anh_Vu'}", "{'X': 'ta_Thi_Kieu_Hanh'}", "{'X': 'tran_Thi_Hoang_Ha'}", "{'X': 'le_Ngoc_Thanh'}", "{'X': 'ly_Quoc_Ngoc'}", "{'X': 'nguyen_Viet_Dong'}", "{'X': 'tran_Thi_Minh_Thu'}", "{'X': 'nguyen_Dinh_Thuc'}", "{'X': 'trinh_Anh_Ngoc'}", "{'X': 'chau_Van_Tao'}", "{'X': 'nguyen_Cong_Tranh'}", "{'X': 'pham_Trung_Hieu'}", "{'X': 'lam_Quang_Vu'}", "{'X': 'huynh_Truc_Phuong'}", "{'X': 'bui_Trong_Tu'}", "{'X': 'nguyen_Van_Vu'}", "{'X': 'nguyen_Thuy_Vy'}", "{'X': 'nguyen_Bich_Ngoc'}", "{'X': 'mai_Hoang_Bien'}", "{'X': 'huynh_Thi_Bao_Tran'}", "{'X': 'nguyen_Quoc_Khanh'}", "{'X': 'le_Tien_Khoa'}", "{'X': 'tran_Thi_Thanh_Van'}", "{'X': 'ngo_Dai_Nghiep'}", "{'X': 'ton_That_Quang'}", "{'X': 'nguyen_Duc_Hoang'}", "{'X': 'tran_Van_Hieu'}", "{'X': 'vo_Duc_Cam_Hai'}", "{'X': 'dang_Duc_Trong'}", "{'X': 'nguyen_Thi_Minh_Tuyen'}", "{'X': 'le_Vu_Tuan_Hung'}", "{'X': 'nguyen_Thanh_Van'}", "{'X': 'tranThaiSon'}", "{'X': 'dao_Nguyen_Khoi'}", "{'X': 'le_Tu_Thanh'}", "{'X': 'nguyen_Van_Hieu'}", "{'X': 'tran_Quang_Trung'}", "{'X': 'dinh_Ngoc_Thanh'}", "{'X': 'nguyen_Chi_Nhan'}", "{'X': 'tran_Le_Bao_Ha'}", "{'X': 'huynh_Huu_Thuan'}", "{'X': 'nguyen_Thai_Hoang'}", "{'X': 'dinh_Ba_Tien'}", "{'X': 'duong_Thi_Thuy_Nga'}", "{'X': 'le_Van_Hieu'}", "{'X': 'nguyen_Thi_Thanh_Mai'}", "{'X': 'nguyen_Le_Hoang_Anh'}", "{'X': 'le_Duc_Phuc'}", "{'X': 'huynh_Van_Tuan'}", "{'X': 'nguyen_Van_Dong'}", "{'X': 'ngo_Thi_Phuong_Uyen'}", "{'X': 'nguyen_Tran_Minh_Thu'}", "{'X': 'pham_The_Bao'}", "{'X': 'dang_Le_Kha'}", "{'X': 'nguyen_Trung_Nhan'}", "{'X': 'nguyen_Tri_Nhan'}", "{'X': 'huynh_Quang_Vu'}", "{'X': 'dinh_Dien'}", "{'X': 'tran_Trung_Dung'}", "{'X': 'van_Chi_Nam'}", "{'X': 'to_Thi_Hien'}", "{'X': 'pham_Kim_Ngoc'}", "{'X': 'ngo_Minh_Thien'}", "{'X': 'hoang_Ngoc_Cuong'}"}
+truong_bo_mon(X, he_thong_thong_tin)
+{"{'X': 'pham_Nguyen_Cuong'}"}
+truong_khoa(dinh_Ba_Tien, cNTT)
 {'true'}
-cung_la_giao_su('LeHoaiBac', 'LyQuocNgoc')
+chuyen_nganh_cung_nganh(cong_nghe_tri_thuc, vat_ly_Ly_thuyet)
 {'false'}
-pho_bo_mon(X, 'Khoahocmaytinh')
-{'{\'X\': "\'LeNgocThanh\'"}'}
-hoc_ham(X, 'GS')
-{'{\'X\': "\'ChauVanTao\'"}', '{\'X\': "\'DangDucTrong\'"}', '{\'X\': "\'LeVanHieu\'"}', '{\'X\': "\'LeHoaiBac\'"}'}
-truong_bo_mon(X, 'Khoahocmaytinh')
-{'{\'X\': "\'LeHoaiBac\'"}'}
-truong_khoa('DinhBaTien', 'CNTT')
+cung_la_giao_su(le_Hoai_Bac, ly_Quoc_Ngoc)
+{'false'}
+bo_mon(X)
+{"{'X': 'cNSH_Thuc_vat_va_Chuyen_hoa_SH'}", "{'X': 'he_thong_thong_tin'}", "{'X': 'di_truyen'}", "{'X': 'huu_co'}", "{'X': 'mang_may_tinh_va_Vien_thong'}", "{'X': 'hoa_Phan_Tich'}", "{'X': 'cong_nghe_phan_mem'}", "{'X': 'dia_chat_co_so'}", "{'X': 'dai_so'}", "{'X': 'vat_ly_Ly_thuyet'}", "{'X': 'thi_giac_may_tinh_va_dieu_khien_hoc_thong_minh'}", "{'X': 'vat_lieu_Polymer_va_Composite'}", "{'X': 'tin_hoc_moi_truong'}", "{'X': 'giao_duc_Toan_hoc'}", "{'X': 'cong_nghe_moi_truong'}", "{'X': 'khoa_hoc_moi_truong'}", "{'X': 'vat_ly_Ung_dung'}", "{'X': 'dien_tu'}", "{'X': 'vat_ly_Tinhoc'}", "{'X': 'sinh_hoa'}", "{'X': 'hoa_hoc_Polymer'}", "{'X': 'hai_duong_hoc-khi_tuong-thuy_van'}", "{'X': 'sinh_ly_Thuc_vat'}", "{'X': 'vat_ly_Chat_ran'}", "{'X': 'vien_thong_va_Mang'}", "{'X': 'toi_uu_va_He_thong'}", "{'X': 'hoa_ly'}", "{'X': 'dia_chat_Thuy_van-dia_chat_cong_trinh'}", "{'X': 'vat_lieu_Nano_va_Mang_mong'}", "{'X': 'khoa_hoc_may_tinh'}", "{'X': 'vat_ly_Dien_tu'}", "{'X': 'co_hoc'}", "{'X': 'tai_Chinh_Dinh_Luong'}", "{'X': 'sinh_thai_va_Sinh_hoc_Tien_hoa'}", "{'X': 'vo_co_va_Ung_dung'}", "{'X': 'cNSH_Phan_tu_va_MT'}", "{'X': 'giai_tich'}", "{'X': 'vi_sinh'}", "{'X': 'may_tinh_va_He_thong_nhung'}", "{'X': 'vat_ly_Dia_cau'}", "{'X': 'sinh_ly_hoc_va_Cong_nghe_Sinh_hoc_Dong_vat'}", "{'X': 'vat_ly_Hat_nhan'}", "{'X': 'quan_ly_moi_truong'}", "{'X': 'ung_dung_tin_hoc'}", "{'X': 'thach_hoc_va_Khoang_san'}", "{'X': 'vat_lieu_tu_va_Y_sinh'}", "{'X': 'dia_chat_bien_va_Dau_khi'}", "{'X': 'xac_suat_thong_ke'}", "{'X': 'cong_nghe_tri_thuc'}"}
+truong_bo_mon(X, khoa_hoc_may_tinh)
+{"{'X': 'le_Hoai_Bac'}"}
+giang_vien(le_Ngoc_Thanh)
 {'true'}
-nganh_cung_khoa('Khoahocmaytinh', 'Kythuatphanmem')
+giao_su(le_Hoai_Bac)
 {'false'}

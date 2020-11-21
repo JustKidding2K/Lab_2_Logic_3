@@ -1,10 +1,14 @@
-giang_vien('LeNgocThanh').
-bo_mon_cung_khoa('Khoahocmaytinh',X).
-truong_khoa('DinhBaTien','CNTT').
-nganh_cung_khoa('Khoahocmaytinh','Kythuatphanmem').
-cung_la_giao_su('LeHoaiBac','LyQuocNgoc').
-truong_bo_mon(X,'Khoahocmaytinh').
-pho_bo_mon(X,'Khoahocmaytinh').
-chuyen_nganh_cung_nganh('Congnghetrithuc','VatlyLythuyet').
-phong('Khoahocmaytinh','I.81').
-hoc_ham(X, 'GS').
+giang_vien(le_Ngoc_Thanh).
+truc_thuoc(X, kHTN).
+truong_khoa(dinh_Ba_Tien,cNTT).
+cung_la_giao_su(le_Hoai_Bac,ly_Quoc_Ngoc).
+truong_bo_mon(X,khoa_hoc_may_tinh).
+pho_bo_mon(X,khoa_hoc_may_tinh).
+chuyen_nganh_cung_nganh(cong_nghe_tri_thuc,vat_ly_Ly_thuyet).
+phong(khoa_hoc_may_tinh,i81).
+hoc_ham(X, gS).
+truong_bo_mon(X, he_thong_thong_tin).
+truong_khoa(X, toan-tinhoc).
+giao_su(le_Hoai_Bac).
+giang_vien(X).
+bo_mon(X).
