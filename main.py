@@ -38,6 +38,7 @@ for i in range(len(querry)):
     output.write('\n')
     output.write(str(theta))
     output.write('\n')
+    output.write('\n')
 
 
 
