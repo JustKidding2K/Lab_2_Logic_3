@@ -1,16 +1,23 @@
-from knowlegde_base import knowledge_base
+from knowledge_base import knowledge_base
 import support
 import forward_chain
 from data import Fact
+import sys
 
-test = input()
 
-knowledge_base_strings=support.get_file_as_strings("test/" + test + "/knowledge.pl")
+#test = input()
+
+knowledge_base_strings=support.get_file_as_strings(sys.argv[1])
+querry_strings=support.get_file_as_strings(sys.argv[2])
+output=open(sys.argv[3],'w')
+#knowledge_base_strings=support.get_file_as_strings("test/" + test + "/knowledge.pl")
+
+
+
+#querry_strings=support.get_file_as_strings("test/" + test + "/query.pl")
+
 
 kb=knowledge_base(knowledge_base_strings)
-
-querry_strings=support.get_file_as_strings("test/" + test + "/query.pl")
-
 querry=set()
 for querry_string in querry_strings:
     querry_string = querry_string[0:-1]
@@ -19,8 +26,7 @@ for querry_string in querry_strings:
         fact = Fact.parse_fact(querry_string)
         querry.add(fact)
 
-output=open("test/" + test + "/output.txt",'w')
-
+#output=open("test/" + test + "/output.txt",'w')
 querry=list(querry)
 
 for i in range(len(querry)):
